@@ -1,17 +1,16 @@
-package com.company;
-
 public class bujursangkarrrr {
-        public static void main(String[] args) {
-            bujursangkarrrr a = new bujursangkarrrr();
-            a.keliling();
-        }
+    private int Keliling;
+    private int sisi;
 
+    public void bujur() {
+        this.Keliling = 4 * sisi;
+    }
 
-        public int sisi = 5;
-        public double kll;
+    public void setSisi(int sisi) {
+        this.sisi = sisi;
+    }
 
-        public void keliling(){
-            kll = 4*sisi;
-            System.out.println("keliling bujur sangkar = " + kll);
+    public int getKeliling(){
+            return Keliling;
         }
     }

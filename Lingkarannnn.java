@@ -1,20 +1,18 @@
-package com.company;
-
 public class Lingkarannnn {
-        public static void main(String[] args){
-            Lingkarannnn a = new Lingkarannnn();
-            a.keliling();
-        }
+    private double phi = 3.14;
+    private double Keliling ;
+    private int radius;
 
-
-        public int d = 5;
-        public double pi = 22/7;
-        public double kll;
-
-        public void keliling(){
-            kll = pi*d;
-            System.out.println("keliling lingkaran = " + kll);
-        }
+    public void HitungKelilingLingkaran(){
+        this.Keliling = 2 * phi * radius;
     }
+
+    public void setradius(int radius){
+        this.radius = radius;
+    }
+    public double getKeliling(){
+        return Keliling;
+    }
+}
 
 
